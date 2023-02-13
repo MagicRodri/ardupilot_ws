@@ -1,0 +1,2 @@
+aruco_gridboard:usb_cam:vision_to_mavros
+-DCATKIN_DEVEL_PREFIX=/home/rodrivm/dev/ardupilot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rodrivm/dev/ardupilot_ws/install -G Unix Makefiles
