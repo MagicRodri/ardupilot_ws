@@ -7,6 +7,9 @@
    
     <remap from="/aruco_gridboard/camera_info" to="/usb_cam/camera_info"/>
     <remap from="/aruco_gridboard/image_raw" to="/usb_cam/image_raw"/>
+    <remap from="/vision/pose" to="/mavros/vision_pose/pose" />
   </node>
+
+  <!-- remap vision/pose to mavros/vision_pose/pose -->
 
 </launch>
