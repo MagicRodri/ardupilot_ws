@@ -8,7 +8,7 @@
         <param name="pixel_format" value="yuyv" />
         <param name="camera_frame_id" value="usb_cam" />
         <param name="io_method" value="mmap" />
-        <param name="camera_info_url" value="file:///$(find aruco_gridboard)/data/head_camera.yaml" />
+        <param name="camera_info_url" value="file:///$(find usb_cam)/data/head_camera.yaml" />
         <param name="camera_name" value="head_camera" />
         <param name="framerate" value="30"/>
     </node>
